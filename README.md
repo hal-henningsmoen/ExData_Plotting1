@@ -4,6 +4,8 @@ output: html_document
 Exploratory Data Analysis Assignment 1
 ================================
 
+*Note: I took this course in the last session and had to withdraw due to time constraints.  That is why some of the files are a month old.*
+
 ## Running the scripts
 
 *Preconditions:*  It is assumed you have the original dataset for this project Electric power consumption  downloaded from https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip and unzipped to the base folder of this project in a file named household_power_consumption.txt.   In addition please install dplyr, lubridate before executing this code.
