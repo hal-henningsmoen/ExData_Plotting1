@@ -6,6 +6,7 @@ library(lubridate)
 #       - subsets the data to pnly the targe days for the analysis (Feb 1 and 2, 2007)
 #       - Creates a datetime column based on the date and time string columns and drops the date and time columns
 #       - Converts all other columns to type numeric (Missing values set to NA instead of ? at this stage) 
+
 load_electrical_data <- function(filename) {
         hpc <- read.csv(filename, sep = ";", as.is =  TRUE)
         targ_date_strings <-

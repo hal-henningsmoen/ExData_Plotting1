@@ -1,3 +1,6 @@
+---
+output: html_document
+---
 Exploratory Data Analysis Assignment 1
 ================================
 

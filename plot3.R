@@ -1,4 +1,5 @@
 source('util.R')
+
 hpc_data <- load_electrical_data("household_power_consumption.txt")
 
 ## Plot histogram for energy sub metering
