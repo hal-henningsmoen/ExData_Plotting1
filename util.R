@@ -3,7 +3,7 @@ library(lubridate)
 
 # This function loads:
 #       - loads the data in filename to a data frame
-#       - subsets the data to pnly the targe days for the analysis (Feb 1 and 2, 2007)
+#       - subsets the data to only the targe days for the analysis (Feb 1 and 2, 2007)
 #       - Creates a datetime column based on the date and time string columns and drops the date and time columns
 #       - Converts all other columns to type numeric (Missing values set to NA instead of ? at this stage) 
 
